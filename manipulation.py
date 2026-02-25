@@ -10,6 +10,7 @@ print(df.isnull())
 print(df.isnull().any(axis=0))
 print(df.isnull().sum())
 print(df.fillna(0))
-df=df.rename(columns={'date':'sale_date'})
+df=df.rename(columns={'sale date':'sale_date'})
 print(df)
 print(df.head())
+
