@@ -19,3 +19,10 @@ index=['a','b','c','d','e']
 s2=pd.Series(data3,index=index)
 print(s2)
 print(s2['c'])
+data4={
+    'Name': ['Alice', 'Bob', 'Charlie', 'David', 'Eve'],
+    'Age': [25, 30, 35, 40, 45],
+    'City': ['New York', 'Los Angeles', 'Chicago', 'Houston', 'Phoenix']
+}
+df1=pd.DataFrame(data4)
+print(df1)
