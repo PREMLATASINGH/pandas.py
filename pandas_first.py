@@ -39,3 +39,5 @@ data5=[
 df2=pd.DataFrame(data5)
 print(df2)
 print(type(df2))
+df3=pd.read_csv('sample_data.csv')
+print(df3)
