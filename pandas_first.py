@@ -60,3 +60,6 @@ df2.drop('salary',axis=1,inplace=True)
 print(df2)
 df2['Age']=df2['Age']+5
 print(df2)
+df2.drop(0,axis=0,inplace=True)
+print(df2)  
+print(df3.describe())
