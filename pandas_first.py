@@ -26,3 +26,5 @@ data4={
 }
 df1=pd.DataFrame(data4)
 print(df1)
+print(type(df1))
+print(df1['Name'])
