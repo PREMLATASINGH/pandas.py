@@ -54,3 +54,9 @@ print(df2.iloc[0,0])
 print(df2.at[0,'City'])
 print(df2.iat[0,2])
 print(df2.iat[1,1])
+df2['salary']=[50000,60000]
+print(df2)
+df2.drop('salary',axis=1,inplace=True)
+print(df2)
+df2['Age']=df2['Age']+5
+print(df2)
