@@ -9,3 +9,6 @@ data1=[1,2,3,4,5]
 s=pd.Series(data1)
 print(s)
 print(type(s))
+data2={'a':1,'b':2,'c':3}
+s1=pd.Series(data2) 
+print(s1)
