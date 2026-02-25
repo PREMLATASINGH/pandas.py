@@ -38,3 +38,4 @@ data5=[
 ]
 df2=pd.DataFrame(data5)
 print(df2)
+print(type(df2))
