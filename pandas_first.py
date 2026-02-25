@@ -8,3 +8,4 @@ print(df.head())
 data1=[1,2,3,4,5]
 s=pd.Series(data1)
 print(s)
+print(type(s))
