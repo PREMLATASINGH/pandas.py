@@ -14,3 +14,7 @@ s1=pd.Series(data2)
 print(s1)
 print(type(s1))
 print(s1['a'])
+data3=[10,20,30,40,50]
+index=['a','b','c','d','e']
+s2=pd.Series(data3,index=index)
+print(s2)
