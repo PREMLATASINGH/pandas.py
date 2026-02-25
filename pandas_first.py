@@ -18,3 +18,4 @@ data3=[10,20,30,40,50]
 index=['a','b','c','d','e']
 s2=pd.Series(data3,index=index)
 print(s2)
+print(s2['c'])
