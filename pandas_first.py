@@ -12,3 +12,4 @@ print(type(s))
 data2={'a':1,'b':2,'c':3}
 s1=pd.Series(data2) 
 print(s1)
+print(type(s1))
