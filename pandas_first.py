@@ -31,3 +31,10 @@ print(df1['Name'])
 print(df1[['Name','City']])
 print(df1.loc[0])
 print(df1.iloc[0])
+data5=[
+    {'Name': 'Alice', 'Age': 25, 'City': 'New York'},
+    {'Name': 'Bob', 'Age': 30, 'City': 'Los Angeles'}
+
+]
+df2=pd.DataFrame(data5)
+print(df2)
