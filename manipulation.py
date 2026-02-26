@@ -13,4 +13,5 @@ print(df.fillna(0))
 df=df.rename(columns={'sale date':'sale_date'})
 print(df)
 print(df.head())
+print(df.info)
 
