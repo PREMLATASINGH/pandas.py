@@ -27,4 +27,5 @@ print(df)
 print(df.dtypes)
 df=df.rename(columns={'Date':'Sale Date'})
 print(df.head())
+print(df.tail())
 
