@@ -25,7 +25,7 @@ print(df.fillna(0))
 df['Sales_fillNA']=df['Sales'].fillna(df['Sales'].mean)
 print(df)
 print(df.dtypes)
-df=df.rename(columns={'Date':'Sale Date'})
+df=df.rename(columns={'Date':'Sales Date'})
 print(df.head())
 print(df.tail())
 
