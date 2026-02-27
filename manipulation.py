@@ -17,6 +17,6 @@ print(df.info())
 print(df.tail())
 print(df.shape)
 print(df.isnull)
-
+print(df.dtypes)
 
 
