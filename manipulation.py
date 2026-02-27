@@ -31,4 +31,4 @@ print(df.tail())
 df['Value_new']=df['Value'].astype(float)
 print(df)
 df['Value_new']=df['Value'].fillna(df['Value'].mean()).astype(int)
-
+print(df)
