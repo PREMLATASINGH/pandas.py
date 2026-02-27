@@ -20,5 +20,6 @@ print(df.isnull)
 print(df.dtypes)
 print(df.isnull().any(axis=1))
 print(df.isnull().any())
+print(df.isnull().sum())
 
 
