@@ -28,4 +28,6 @@ print(df.dtypes)
 df=df.rename(columns={'Date':'Sales Date'})
 print(df.head())
 print(df.tail())
+df['Value_new']=df['Value'].astype(float)
+print(df)
 
