@@ -24,5 +24,7 @@ print(df.isnull().sum())
 print(df.fillna(0))
 df['Sales_fillNA']=df['Sales'].fillna(df['Sales'].mean)
 print(df)
-
+print(df.dtypes)
+df=df.rename(columns={'Date':'Sale Date'})
+print(df.head())
 
