@@ -25,3 +25,4 @@ print(df.fillna(0))
 df['sales_fillNA']=df['Sales'].fillna(df['Sales'].mean)
 print(df)
 
+
