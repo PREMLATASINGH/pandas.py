@@ -18,5 +18,6 @@ print(df.tail())
 print(df.shape)
 print(df.isnull)
 print(df.dtypes)
+print(df.isnull().any(axis=1))
 
 
