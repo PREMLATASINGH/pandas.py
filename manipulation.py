@@ -22,7 +22,7 @@ print(df.isnull().any(axis=1))
 print(df.isnull().any())
 print(df.isnull().sum())
 print(df.fillna(0))
-df['sales_fillNA']=df['Sales'].fillna(df['Sales'].mean)
+df['Sales_fillNA']=df['Sales'].fillna(df['Sales'].mean)
 print(df)
 
 
