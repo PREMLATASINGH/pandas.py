@@ -18,3 +18,4 @@ df3=df.sort_values(["Age"])
 print(df3)
 df4=df.groupby("Age")["Salary"].agg(["sum","mean","max"])
 print(df4)
+
