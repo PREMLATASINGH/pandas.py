@@ -35,3 +35,7 @@ print(df)
 df['New Value']=df['Value'].apply(lambda x:x*2)
 print(df.head())
 print(df.tail())
+grouped_mean=df.groupby('Product')['Value'].mean
+print(grouped_mean)
+grouped_agg=df.groupby("Region")["Value"].agg(["mean","sum","count"])
+print(grouped_agg)
