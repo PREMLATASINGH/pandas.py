@@ -8,5 +8,7 @@ data={
 }
 df=pd.DataFrame(data)
 print(df)
-df1=df["Salary"]=df["Salary"].apply(lambda x:x*1.10)
+df["Salary"]=df["Salary"].apply(lambda x:x*1.10)
+print(df)
+df1=df["Category"]=df["Salary"].apply(lambda x:"high"if x>50000 else"low")
 print(df1)
