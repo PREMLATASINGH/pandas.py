@@ -39,3 +39,6 @@ grouped_mean=df.groupby('Product')['Value'].mean
 print(grouped_mean)
 grouped_agg=df.groupby("Region")["Value"].agg(["mean","sum","count"])
 print(grouped_agg)
+df1=pd.DataFrame({"Key":["A","B","C"],"Value1":[1,2,3]})
+df2=pd.DataFrame({"Key":["A","B","C"],"Value2":[1,2,3]})
+print(df1)
