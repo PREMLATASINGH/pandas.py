@@ -12,5 +12,11 @@ df["Salary"]=df["Salary"]+5000
 print(df)
 df1=df[df["Salary"]>45000]
 print(df1)
-#df[(df["Salary"]>45000)&(df["Age"]>24)]
-#print(df)
+df2=df[(df["Salary"]>45000)&(df["Age"]>24)]
+print(df2)
+df3=df.sort_values(["Age"])
+print(df3)
+df4=df.groupby("Age")["Salary"].agg(["sum","mean","max"])
+print(df4)
+df5=df.rename(coloumns={"Salary":"Monthly_Salary"},inplace=True)
+print(df)
