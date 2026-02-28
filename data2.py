@@ -8,3 +8,5 @@ data={
 }
 df=pd.DataFrame(data)
 print(df)
+df1=df["Salary"]=df["Salary"].apply(lambda x:x*1.10)
+print(df1)
