@@ -4,3 +4,5 @@ Data='{"employee_name":"prema","email":"singh@gmail.com","job_profile":[{"title1
 df=pd.read_json(StringIO(Data))
 print(df)
 print(type(df))
+df1=df.to_json()
+print(df1)
