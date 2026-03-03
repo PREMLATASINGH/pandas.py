@@ -25,3 +25,4 @@ df2=pd.read_csv("https://archive.ics.uci.edu/ml/machine-learning-databases/wine/
 print(df2)
 print(df2.head())
 print(df2.columns)
+print(df2.tail())
