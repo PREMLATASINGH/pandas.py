@@ -25,6 +25,9 @@ plt.boxplot(df['Age'], vert=False)
 plt.xlabel('Age')
 plt.title('Box Plot of Age')
 plt.show()
+plt.pie(df['Age'], labels=df['Name'], autopct='%1.1f%%')
+plt.title('Age Distribution')
+plt.show()
 
 data1=[1,2,3,4,5]
 s=pd.Series(data1)
