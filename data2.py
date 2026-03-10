@@ -19,3 +19,5 @@ print(df1)
 print(df.head())
 grouped_mean=df.groupby('Salary')['Experience'].mean
 print(grouped_mean)
+grouped_mean=df.groupby('Department')['Salary'].mean
+print(grouped_mean)
