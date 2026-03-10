@@ -21,3 +21,7 @@ grouped_mean=df.groupby('Salary')['Experience'].mean
 print(grouped_mean)
 grouped_mean=df.groupby('Department')['Salary'].mean
 print(grouped_mean)
+print(df)
+df1=pd.DataFrame({"Key":["A","B","C"],"Value1":[1,2,3]})
+df2=pd.DataFrame({"Key":["A","B","D"],"Value2":[4,5,6]})
+print(df1)
