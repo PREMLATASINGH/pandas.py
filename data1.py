@@ -14,6 +14,7 @@ df1=df[df["Salary"]>45000]
 print(df1)
 df2=df[(df["Salary"]>45000)&(df["Age"]>24)]
 print(df2)
+print(df["Name"])
 df3=df.sort_values(["Age"])
 print(df3)
 df4=df.groupby("Age")["Salary"].agg(["sum","mean","max"])
@@ -30,3 +31,4 @@ df3=pd.merge(df1,df2,on="Key",how="left")
 print(df3)
 df3=pd.merge(df1,df2,on="Key",how="right")
 print(df3)
+
