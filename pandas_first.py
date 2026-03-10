@@ -21,6 +21,10 @@ plt.xlabel('Age')
 plt.ylabel('Frequency')
 plt.title('Distribution of Age')
 plt.show()
+plt.boxplot(df['Age'], vert=False)
+plt.xlabel('Age')
+plt.title('Box Plot of Age')
+plt.show()
 
 data1=[1,2,3,4,5]
 s=pd.Series(data1)
