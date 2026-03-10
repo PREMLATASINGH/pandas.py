@@ -16,6 +16,11 @@ plt.xlabel('Name')
 plt.ylabel('Age')
 plt.title('Age of Individuals')
 plt.show()
+plt.hist(df['Age'], bins=5, edgecolor='black')
+plt.xlabel('Age')   
+plt.ylabel('Frequency')
+plt.title('Distribution of Age')
+plt.show()
 
 data1=[1,2,3,4,5]
 s=pd.Series(data1)
