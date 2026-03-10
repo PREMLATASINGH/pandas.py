@@ -48,3 +48,5 @@ df3=df2[df2[1]>13]
 print(df3)
 df3=df2[(df2[0]==1) & (df2[1]>13)]
 print(df3)
+df3=df2[(df2[0]==1) | (df2[1]>13)]
+print(df3)
