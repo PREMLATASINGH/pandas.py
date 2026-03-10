@@ -18,4 +18,6 @@ df3=df.sort_values(["Age"])
 print(df3)
 df4=df.groupby("Age")["Salary"].agg(["sum","mean","max"])
 print(df4)
-
+df1=pd.DataFrame({"Key":["A","B","C"],"Value1":[1,2,3]})
+df2=pd.DataFrame({"Key":["A","B","D"],"Value2":[4,5,6]})
+print(df1)
