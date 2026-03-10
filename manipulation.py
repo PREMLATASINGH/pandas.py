@@ -45,6 +45,8 @@ print(df1)
 print(df2)
 df3=pd.merge(df1,df2,on="Key",how="right")
 print(df3)
+df3=pd.merge(df1,df2,on="Key",how="outer")
+print(df3)
 x=df3['Value1'].fillna(0)
 print(x)
 df3['Value1']=x
