@@ -11,6 +11,12 @@ plt.xlabel('Age')
 plt.ylabel('Name')
 plt.title('Age vs Name')
 plt.show()
+plt.bar(df['Name'], df['Age'])
+plt.xlabel('Name')
+plt.ylabel('Age')
+plt.title('Age of Individuals')
+plt.show()
+
 data1=[1,2,3,4,5]
 s=pd.Series(data1)
 print(s)
