@@ -44,3 +44,5 @@ print(df2[4].value_counts())
 print(df2[5].value_counts())
 df3=df2[df2[0]==1]
 print(df3)
+df3=df2[df2[1]>13]
+print(df3)
