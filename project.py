@@ -5,3 +5,5 @@ df=pd.DataFrame({
     "Salary":[30000,50000,45000,60000]
 })
 print(df)
+df["Bonus"]=df["Salary"]*0.10
+print(df)
