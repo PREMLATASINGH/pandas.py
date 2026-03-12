@@ -38,3 +38,6 @@ df3['Value2']=x2
 print(df3)
 df3['Value2']=df3['Value2'].fillna(0)
 print(df3)
+x3={"A":10,"B":20,"C":30}
+df3['Value3']=df3['Key'].map(x3)
+print(df3)
