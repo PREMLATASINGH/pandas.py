@@ -35,3 +35,6 @@ x2=df2['Value2'].fillna(0)
 print(x2)
 df3['Value2']=x2
 print(df3)
+df3['Value2']=df3['Value2'].fillna(0)
+print(df3)
+
