@@ -17,5 +17,7 @@ sns.violinplot(data=df)
 plt.show()
 sns.histplot(data=df, kde=True)
 plt.show()
+sns.countplot(x='quality', data=df)
+plt.show()
 
 
