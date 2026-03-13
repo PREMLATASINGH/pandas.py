@@ -13,3 +13,6 @@ sns.heatmap(df.corr(), annot=True, cmap='coolwarm')
 plt.show()
 sns.boxplot(data=df)
 plt.show()
+sns.violinplot(data=df)
+plt.show()
+
