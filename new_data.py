@@ -1,0 +1,14 @@
+import pandas as pd 
+def load_data(file_path):
+    data = pd.read_csv(file_path)
+    return data
+def preprocess_data(data):
+    # Example preprocessing steps
+    data = data.dropna()  # Remove missing values
+    data['date'] = pd.to_datetime(data['date'])  # Convert date column to datetime
+    return data
+def main():
+    file_path = r"C:\Users\Prema\Downloads\All+Data+&+Resources (1)\All Data & Resources\Day 1\Data\sales2017_raw.csv"  # Path to your data file
+    data = load_data(file_path)
+    processed_data = preprocess_data(data)
+    print(processed_data.head())  # Display the first few rows of the processed data
