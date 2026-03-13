@@ -15,4 +15,7 @@ sns.boxplot(data=df)
 plt.show()
 sns.violinplot(data=df)
 plt.show()
+sns.histplot(data=df, kde=True)
+plt.show()
+
 
