@@ -12,3 +12,6 @@ def main():
     data = load_data(file_path)
     processed_data = preprocess_data(data)
     print(processed_data.head())  # Display the first few rows of the processed data
+df=pd.read_csv('wine_data.csv')
+print(df.head())
+print(df.info())
