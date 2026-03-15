@@ -6,3 +6,4 @@ data={
     'City': ['New York', 'Los Angeles', 'Chicago', 'Houston', 'Phoenix']
 }
 df=pd.DataFrame(data)
+print(df)
