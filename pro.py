@@ -7,3 +7,8 @@ df={'student':['Alice','Bob','Charlie','David','Eve'],
     'city':['New York','Los Angeles','Chicago','Houston','Phoenix']}
 df=pd.DataFrame(df)
 print(df)
+plt.hist(df['age'], bins=5, edgecolor='black')
+plt.title('Age Distribution')
+plt.xlabel('Age')
+plt.ylabel('Frequency')
+plt.show()
