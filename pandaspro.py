@@ -20,5 +20,8 @@ plt.ylabel('Frequency')
 plt.show()
 df1=df[df['Age']>40]
 print(df1)
+new_row = pd.DataFrame([{'Name':'Karl','Age':75,'City':'Austin'}])
+df1 = pd.concat([df1, new_row], ignore_index=True)
+print(df1)
 
 
