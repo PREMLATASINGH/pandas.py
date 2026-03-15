@@ -1,4 +1,6 @@
 import pandas as pd 
+import matplotlib.pyplot as plt
+import seaborn as sns
 def load_data(file_path):
     data = pd.read_csv(file_path)
     return data
@@ -18,3 +20,6 @@ print(df.info())
 print(df.describe())
 print(df.corr())
 print(df.isnull().sum())
+pd.plotting.scatter_matrix(df, figsize=(10, 10))
+plt.show()
+
