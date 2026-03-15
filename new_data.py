@@ -22,4 +22,6 @@ print(df.corr())
 print(df.isnull().sum())
 pd.plotting.scatter_matrix(df, figsize=(10, 10))
 plt.show()
+sns.heatmap(df.corr(), annot=True, cmap='coolwarm',)
+plt.show()
 
