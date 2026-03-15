@@ -13,3 +13,10 @@ print(df.describe())
 print(df.tail())
 pd.plotting.scatter_matrix(df, figsize=(10, 10))
 plt.show()
+plt.hist(df['Age'], bins=5, edgecolor='black')
+plt.title('Age Distribution')
+plt.xlabel('Age')
+plt.ylabel('Frequency')
+plt.show()
+
+
