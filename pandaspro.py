@@ -23,5 +23,13 @@ print(df1)
 new_row = pd.DataFrame([{'Name':'Karl','Age':75,'City':'Austin'}])
 df1 = pd.concat([df1, new_row], ignore_index=True)
 print(df1)
+removed_row = df1[df1['Name'] == 'David']
+df1 = df1[df1['Name'] != 'David']
+print(df1)
+print(removed_row)
+print(df1.head())
+print(df.apply(lambda x: x['Age']*2 if x['Age'] > 40 else x['Age'], axis=1))
+
+
 
 
