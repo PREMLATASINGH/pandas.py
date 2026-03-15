@@ -18,5 +18,7 @@ plt.title('Age Distribution')
 plt.xlabel('Age')
 plt.ylabel('Frequency')
 plt.show()
+df1=df[df['Age']>40]
+print(df1)
 
 
