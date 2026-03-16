@@ -6,3 +6,4 @@ df={'product':['freeze','vegetable','dairy','meat','grain','bakery','fruit','sna
     'category':['food','food','food','food','food','food','food','food','food','beverage','other']}
 df=pd.DataFrame(df)
 print(df)
+print(df.head())
