@@ -22,3 +22,8 @@ plt.title('Age vs Grade')
 plt.xlabel('Age')
 plt.ylabel('Grade')
 plt.show()
+numeric_df = df.select_dtypes(include='number')
+sns.heatmap(numeric_df.corr(), annot=True, cmap='coolwarm')
+plt.title('Correlation Heatmap')
+plt.show()
+
