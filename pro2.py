@@ -7,3 +7,4 @@ df={'product':['freeze','vegetable','dairy','meat','grain','bakery','fruit','sna
 df=pd.DataFrame(df)
 print(df)
 print(df.head())
+print(df.info())
