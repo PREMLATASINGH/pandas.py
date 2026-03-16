@@ -12,3 +12,6 @@ total_sales = df['Sales'].sum()
 print("Total Sales:", total_sales)
 average_sales = df['Sales'].mean()
 print("Average Sales:", average_sales)
+df['month'] = df['Date'].dt.month
+monthly_sales = df.groupby('month')['Sales'].sum()
+print(monthly_sales)
