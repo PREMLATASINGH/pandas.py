@@ -40,3 +40,5 @@ plt.pie(df['grade'], labels=df['student_name'], autopct='%1.1f%%')
 plt.title('Grade Distribution by Student')
 plt.axis('equal')
 plt.show()
+highest_grade_student = df.loc[df['grade'].idxmax()]
+print("Student with Highest Grade:")
