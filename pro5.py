@@ -1,0 +1,8 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+df={'student_id':['s001','s002','s003','s004','s005','s006','s007','s008','s009','s010'],
+    'student_name':['Alice','Bob','Charlie','David','Eve','Frank','Grace','Heidi','Ivan','Judy'],
+    'age':[20,21,22,23,24,25,26,27,28,29],
+    'grade':[85,90,78,92,88,95,80,91,87,89]}
+df=pd.DataFrame(df)
+print(df)
