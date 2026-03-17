@@ -6,3 +6,4 @@ df={'student_id':['s001','s002','s003','s004','s005','s006','s007','s008','s009'
     'grade':[85,90,78,92,88,95,80,91,87,89]}
 df=pd.DataFrame(df)
 print(df)
+print(df.head())
