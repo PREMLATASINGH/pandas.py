@@ -10,3 +10,4 @@ df={'product_id':['p001','p002','p003','p004','p005','p006','p007','p008','p009'
 df=pd.DataFrame(df)
 print(df)
 print(df.head())
+print(df.info())
