@@ -7,3 +7,4 @@ df={'student_id':['s001','s002','s003','s004','s005','s006','s007','s008','s009'
 df=pd.DataFrame(df)
 print(df)
 print(df.head())
+print(df.info())
