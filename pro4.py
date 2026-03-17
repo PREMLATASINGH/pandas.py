@@ -66,5 +66,8 @@ plt.show()
 highest_sales_product = df.loc[df['sales'].idxmax()]
 print("Product with Highest Sales:")
 print(highest_sales_product)
+lowest_sales_product = df.loc[df['sales'].idxmin()]
+print("Product with Lowest Sales:")
+print(lowest_sales_product)
 
 
