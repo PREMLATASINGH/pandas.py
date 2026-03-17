@@ -69,5 +69,7 @@ print(highest_sales_product)
 lowest_sales_product = df.loc[df['sales'].idxmin()]
 print("Product with Lowest Sales:")
 print(lowest_sales_product)
+average_sales = df['sales'].mean()
+print("Average Sales:", average_sales)
 
 
