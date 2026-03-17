@@ -71,5 +71,7 @@ print("Product with Lowest Sales:")
 print(lowest_sales_product)
 average_sales = df['sales'].mean()
 print("Average Sales:", average_sales)
+average_units_sold = df['units_sold'].mean()
+print("Average Units Sold:", average_units_sold)
 
 
