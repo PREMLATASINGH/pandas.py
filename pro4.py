@@ -63,3 +63,8 @@ plt.ylabel('Sales')
 plt.xticks(rotation=45)
 plt.grid()
 plt.show()
+highest_sales_product = df.loc[df['sales'].idxmax()]
+print("Product with Highest Sales:")
+print(highest_sales_product)
+
+
