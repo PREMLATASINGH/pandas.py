@@ -51,4 +51,6 @@ print(df[df['grade'] > 90])
 print("Students with Grade Below 80:")
 print(df[df['grade'] < 80])
 print(df)
+print(df[df['grade']<70])
+print('student with grade below 70:')
 
