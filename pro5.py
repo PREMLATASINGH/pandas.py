@@ -42,3 +42,4 @@ plt.axis('equal')
 plt.show()
 highest_grade_student = df.loc[df['grade'].idxmax()]
 print("Student with Highest Grade:")
+print(highest_grade_student)
