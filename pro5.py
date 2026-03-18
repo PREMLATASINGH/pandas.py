@@ -43,3 +43,6 @@ plt.show()
 highest_grade_student = df.loc[df['grade'].idxmax()]
 print("Student with Highest Grade:")
 print(highest_grade_student)
+lowest_grade_student = df.loc[df['grade'].idxmin()]
+print("Student with Lowest Grade:")
+print(lowest_grade_student)
