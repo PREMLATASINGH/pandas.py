@@ -46,3 +46,5 @@ print(highest_grade_student)
 lowest_grade_student = df.loc[df['grade'].idxmin()]
 print("Student with Lowest Grade:")
 print(lowest_grade_student)
+print("Students with Grade Above 90:")
+print(df[df['grade'] > 90])
