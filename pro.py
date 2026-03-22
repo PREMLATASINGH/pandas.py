@@ -26,5 +26,5 @@ numeric_df = df.select_dtypes(include='number')
 sns.heatmap(numeric_df.corr(), annot=True, cmap='coolwarm')
 plt.title('Correlation Heatmap')
 plt.show()
-
+print(type(df))
 
