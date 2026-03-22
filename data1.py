@@ -42,3 +42,4 @@ x3={"A":10,"B":20,"C":30}
 df3['Value3']=df3['Key'].map(x3)
 print(df3)
 print(type(df))
+print(type(df4))
