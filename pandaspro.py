@@ -29,7 +29,7 @@ print(df1)
 print(removed_row)
 print(df1.head())
 print(df.apply(lambda x: x['Age']*2 if x['Age'] > 40 else x['Age'], axis=1))
-
+print(type(df))
 
 
 
