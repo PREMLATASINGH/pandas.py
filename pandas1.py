@@ -13,6 +13,7 @@ sns.heatmap(df.corr(), annot=True, cmap='coolwarm',)
 plt.show()
 plt.hist(df)
 plt.show()
+print(type(df))
 
 
 
