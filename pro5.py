@@ -53,5 +53,6 @@ print(df[df['grade'] < 80])
 print(df)
 print(df[df['grade']>70])
 print('student with grade above 70:')
+print(type(df))
 
 
