@@ -1,5 +1,6 @@
 import numpy as np
 import pandas as pd
+import matplotlib.pyplot as plt
 df=pd.read_csv('train.csv')
 print(df.head())
 print(df)
@@ -21,3 +22,5 @@ avg_sales=np.mean(df['Sales'])
 print(avg_sales)
 std_sales=np.std(df['Sales'])
 print(std_sales)
+category_sales.plot(kind='line')
+plt.show()
