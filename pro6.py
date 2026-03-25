@@ -28,6 +28,7 @@ df.groupby("category")["total_sales"].sum()
 print(df.groupby("category")["total_sales"].sum())
 print(df.groupby("product")["total_sales"].sum())
 print(df.groupby("region")["total_sales"].sum())
+plt.hist(df)
 plt.title("sale by category")
 plt.show()
 
