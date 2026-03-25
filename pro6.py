@@ -20,4 +20,5 @@ df['profit']=np.multiply(df["quantity"],(df["price"]-df['cost']))
 print(df)
 print("total profit:", df["profit"].sum())
 print(np.mean(df["total_sales"]))
+print(np.std(df["total_sales"]))
 
