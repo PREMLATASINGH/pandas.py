@@ -21,4 +21,5 @@ print(df)
 print("total profit:", df["profit"].sum())
 print(np.mean(df["total_sales"]))
 print(np.std(df["total_sales"]))
+print(np.max(df["total_sales"]))
 
