@@ -13,3 +13,4 @@ data={
 df=pd.DataFrame(data)
 print(df)
 print(df.isnull().sum())
+df["date"]=pd.to_datetime(df["date"])
