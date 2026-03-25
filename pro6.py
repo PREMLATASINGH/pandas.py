@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 data={
     "product":["laptop","phone","chair","table","laptop"],
-    "category":["tech","tech","fruniture","furniture","tech"],
+    "category":["tech","tech","furniture","furniture","tech"],
     "quantity":[1,2,3,1,2],
     "price":[1200,800,150,300,1200],
     "cost":[900,500,100,200,900],
@@ -14,3 +14,5 @@ df=pd.DataFrame(data)
 print(df)
 print(df.isnull().sum())
 df["date"]=pd.to_datetime(df["date"])
+df["total_sales"]=np.multiply(df["quantity"],df["price"])
+print("total_sales:", df["total_sales"])
