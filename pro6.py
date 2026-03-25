@@ -1,5 +1,6 @@
 import pandas as pd 
 import numpy as np
+import matplotlib.pyplot as plt
 data={
     "product":["laptop","phone","chair","table","laptop"],
     "category":["tech","tech","furniture","furniture","tech"],
@@ -27,5 +28,7 @@ df.groupby("category")["total_sales"].sum()
 print(df.groupby("category")["total_sales"].sum())
 print(df.groupby("product")["total_sales"].sum())
 print(df.groupby("region")["total_sales"].sum())
+plt.title("sale by category")
+plt.show()
 
 
