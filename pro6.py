@@ -23,4 +23,5 @@ print(np.mean(df["total_sales"]))
 print(np.std(df["total_sales"]))
 print(np.max(df["total_sales"]))
 print(np.min(df["total_sales"]))
+df.groupby("category")["total_sales"].sum()
 
