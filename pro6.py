@@ -28,3 +28,4 @@ print(df.groupby("category")["total_sales"].sum())
 print(df.groupby("product")["total_sales"].sum())
 print(df.groupby("region")["total_sales"].sum())
 
+
