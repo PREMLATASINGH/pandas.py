@@ -9,3 +9,5 @@ print(df.info())
 print(df.describe())
 print(df.isnull().sum())
 print(df.fillna(0))
+print(df.columns)
+
