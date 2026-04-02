@@ -74,7 +74,7 @@ print("Average Sales:", average_sales)
 print(type(df))
 df1=df.groupby('price')['sales'].sum()
 print(df1)
-df2=df['region'].sort_values(ascending=True)
+df2=df['unit'].sort_values(ascending=True)
 print(df2)
 
 
