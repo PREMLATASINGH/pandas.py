@@ -30,5 +30,5 @@ plt.show()"""
 print(df)
 print(df.isnull().sum())
 print(type(df))
-df1=df.groupby('product')['sales'].sum()
+df1=df.groupby('category')['sales'].sum()
 print(df1)
