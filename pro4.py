@@ -74,7 +74,7 @@ print("Average Sales:", average_sales)
 print(type(df))
 df1=df.groupby('price')['sales'].sum()
 print(df1)
-df2=df['product_id'].unique()
+df2=df['region'].unique()
 print(df2)
 
 
