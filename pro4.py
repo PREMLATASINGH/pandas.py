@@ -76,6 +76,7 @@ df1=df.groupby('price')['sales'].sum()
 print(df1)
 df2=df['sales'].mean()
 print(df2)
+pd.pivot_table(df,values='sales',index='category',aggfunc='sum')
 
 
 
