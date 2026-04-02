@@ -79,6 +79,8 @@ print(df2)
 df3=pd.pivot_table(df,values='sales',index='category',aggfunc='sum')
 print(df3)
 print(df)
+df4=df.groupby('category')['sales'].sum()
+print(df4)
 
 
 
