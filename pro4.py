@@ -72,6 +72,8 @@ print(lowest_sales_product)
 average_sales = df['sales'].mean()
 print("Average Sales:", average_sales)
 print(type(df))
+df1=df.groupby('price')['sales'].sum()
+print(df1)
 
 
 
